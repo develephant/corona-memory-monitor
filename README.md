@@ -13,9 +13,9 @@ Tap the monitor text to toggle it on and off.
 
 All parameters are optional.
 
-- __delay__ : Pass 0 or nil to run on every enterFrame event. Pass milliseconds value to update on a delay. Default: nil.
+- __delay__ : Pass 0 to run on every frame. Pass milliseconds value to delay update. Default: 0.
 
-- __fill__: A table with the fill color. Default: {1,1,1}.
+- __fill__: A table with the preferred text color values. Default: {1,1,1}.
 
 - __x__: The x position of the monitor. Default is top left of the viewable screen.
 
