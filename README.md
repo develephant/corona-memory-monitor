@@ -7,19 +7,18 @@ A super simple memory monitor for Corona development
 require("memory").new([delay, fill, x, y])
 ```
 
-Tap the monitor text to toggle it on and off.
+Tap the monitor text to toggle it on or off.
 
 ### Parameters
 
-All parameters are optional.
+_All parameters are optional._
 
-- __delay__ : Pass 0 to run on every frame. Pass milliseconds value to delay update. Default: 0.
-
-- __fill__: A table with the preferred text color values. Default: {1,1,1}.
-
-- __x__: The x position of the monitor. Default is top left of the viewable screen.
-
-- __y__: The y position of the monitor. Default is top left of the viewable screen.
+|Name|Description|
+|----|-----------|
+|delay|Pass 0 to run on every frame. Pass milliseconds value to delay update. Default: 0|
+|fill|A table with the preferred text color values. Default: {1,1,1}.|
+|x|The x position of the monitor. Default is top left of the viewable screen.|
+|y|The y position of the monitor. Default is top left of the viewable screen.|
 
 ### Examples
 
