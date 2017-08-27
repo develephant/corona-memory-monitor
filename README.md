@@ -3,13 +3,11 @@ A super simple memory monitor for Corona development
 
 ## Usage
 
-Require the memory monitor on top of the display list:
-
 ```lua
 require("memory").new([delay, fill, x, y])
 ```
 
-Tap the monitor text to toggle.
+Tap the monitor text to toggle it on and off.
 
 ### Parameters
 
