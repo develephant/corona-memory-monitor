@@ -16,13 +16,13 @@ _All parameters are optional._
 |Name|Description|
 |:----|:-----------|
 |delay|Pass 0 to run on every frame. Pass milliseconds value to delay update. Default: 0|
-|fill|A table with the preferred text color values. Default: {1,1,1}.|
+|fill|A table with the preferred text color values. Default: {1,1,1} (white).|
 |x|The x position of the monitor. Default is top left of the viewable screen.|
 |y|The y position of the monitor. Default is top left of the viewable screen.|
 
 ### Examples
 
-_Update every frame, white text_:
+_Update every frame_:
 
 ```lua
 require("memory").new()
