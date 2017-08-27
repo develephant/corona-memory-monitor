@@ -14,7 +14,7 @@ Tap the monitor text to toggle it on or off.
 _All parameters are optional._
 
 |Name|Description|
-|----|-----------|
+|:----|:-----------|
 |delay|Pass 0 to run on every frame. Pass milliseconds value to delay update. Default: 0|
 |fill|A table with the preferred text color values. Default: {1,1,1}.|
 |x|The x position of the monitor. Default is top left of the viewable screen.|
