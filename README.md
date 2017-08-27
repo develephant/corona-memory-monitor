@@ -1,5 +1,5 @@
 # Corona Memory Monitor
-A super simple memory monitor for Corona development
+A super simple memory monitor for Corona development. Displays memory and texture memory.
 
 ## Usage
 
