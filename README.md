@@ -22,7 +22,7 @@ _All parameters are optional._
 
 ### Examples
 
-_Update every frame_:
+_Update every frame, white text_:
 
 ```lua
 require("memory").new()
